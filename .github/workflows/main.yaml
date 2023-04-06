@@ -37,4 +37,4 @@ jobs:
             docker run -d \
             -p 8080:8080 \
             --name backend_labs \
-            ${{ secrets.DOCKER_USERNAME }}/devops-labs-backend:${{ github.run_number }}
+            ${{ secrets.DOCKER_USERNAME }}/backend_labs:${{ github.run_number }}
